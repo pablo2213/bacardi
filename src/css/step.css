@@ -1,0 +1,35 @@
+.logo-container {
+	max-width: 90px;
+	width: 100%;
+	text-align: center;
+	margin: auto
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.text-group-container {
+	margin: 1rem -.5rem .3rem;
+	padding: .3rem !important
+}
+.dark-container {
+	background-color: rgba(0,0,0,.5)
+}
+.light-container {
+	background-color: rgba(255,255,255,.5)
+}
+.dark-text, .dark-text * {
+	color: #000 !important
+}
+.dark-shadow, .dark-shadow * {
+	text-shadow: 0 0 10px rgba(0, 0, 0, .8) !important
+}
+
+.icons-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}

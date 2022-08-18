@@ -1,0 +1,113 @@
+/**
+ *
+ * Extra small devices (portrait phones, less than 576px)
+ * No media query for `xs` since this is the default in Bootstrap
+ */
+@media (min-width: 400px) {
+	.title-container h2 {
+		font: var(--headline4);
+	}
+	.stepone-container > .button-container:first-child > .button-content {
+		margin-bottom: 0;
+	}
+	.button-content {
+		width: 85px;
+		height: 85px;
+	}
+	.button-content > button {
+		font: var(--headline1);
+	}
+	.stepone-footer {
+		font: var(--headline4);
+	}
+	.bottle-bottom {
+		margin-top: 0;
+		max-height: 195px;
+	}
+}
+
+/**
+ *
+ * Small devices (landscape phones, 576px and up)
+ */
+@media (min-width: 576px) {
+	.title-container h2 {
+		font: var(--headline5);
+	}
+	.stepone-container > .button-container:first-child > .button-content {
+		margin-bottom: 0;
+	}
+	.button-content {
+		width: 90px;
+		height: 90px;
+	}
+	.button-content > button {
+		font: var(--headline3);
+	}
+	.stepone-footer {
+		font: var(--body2-bold);
+	}
+	.bottle-bottom {
+		max-height: 250px;
+	}
+}
+
+/**
+ *
+ * Medium devices (tablets, 768px and up)
+ */
+@media (min-width: 768px) {
+	.button-content {
+		width: 162px;
+		height: 162px;
+	}
+	.button-content > button {
+		font: var(--headline1);
+	}
+	.bottle-bottom {
+		max-height: 280px;
+	}
+}
+
+/**
+ *
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+	.title-container h2 {
+		margin-bottom: 0;
+		font: var(--headline1);
+	}
+	.stepone-footer {
+		margin-top: 0;
+		font: var(--headline4);
+	}
+	.button-content > button {
+		font: var(--headline2);
+	}
+	#stepBottle {
+		margin-top: -5rem
+	}
+	.bottle-bottom {
+		max-height: 100%;
+	}
+}
+
+/**
+ *
+ * Extra large devices (large desktops, 1366px and up)
+ */
+@media (min-width: 1200px) {
+	
+}
+
+/**
+ *
+ * Extra large devices (large desktops, 1366px and up)
+ */
+@media (min-width: 1400px) {
+	.title-container h2 {
+		margin-bottom: 0;
+		font: var(--headline2);
+	}
+}

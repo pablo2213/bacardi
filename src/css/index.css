@@ -1,0 +1,172 @@
+:root {
+  --primary: #c20e1a;
+  --primary-filter: invert(77%) sepia(59%) saturate(550%) hue-rotate(355deg) brightness(350%) contrast(50%);
+  --white: #fffffe;
+  --grey: #a7a9be;
+  --black: #000000;
+  --black-filter: brightness(0) saturate(100%);
+  --background:#0f0e17;
+  --headline1: 800 .9rem/1 Grotesque, Montserrat;
+  --headline2: 800 1rem/1 Grotesque, Montserrat;
+  --headline35: 800 .8rem/1 Grotesque, Montserrat;
+  --headline3: 800 .7rem/1 Grotesque, Montserrat;
+  --headline4: 800 .6rem/1 Grotesque, Montserrat;
+  --headline5: 800 .5rem/1 Grotesque, Montserrat;
+  --button: 400 .6rem/1 Grotesque, Montserrat;
+  --caption: 400 1rem/1 Grotesque, Montserrat;
+  --body1-regular: 400 .6rem/1 Grotesque, Montserrat;
+  --body1-bold: 700 .6rem/1 Grotesque, Montserrat;
+  --body2-regular: 400 .5rem/1 Grotesque, Montserrat;
+  --body2-bold: 700 .5rem/1 Grotesque, Montserrat;
+  --body3-regular: 400 .4rem/1 Grotesque, Montserrat;
+  --body3-bold: 700 .4rem/1 Grotesque, Montserrat;
+  --body4-regular: 400 .3rem/1 Grotesque, Montserrat;
+  --body4-bold: 700 .3rem/1 Grotesque, Montserrat;
+  --menu-list-item: normal 700 .5rem/1 Grotesque, Montserrat;
+  --border-color: #be121d;
+  --roulette-bg: url(../images/roulette.png);
+  --roulette-pointer: url(../images/roullete-pointer.png);
+  --roulette-muerciela: url(../images/muerciela.png);
+  --roulette-button: url(../images/roulette-button.png);
+  --roulette-main-bg: url(../images/woodplanks-background.jpg);
+}
+
+body, header, nav, main, section, footer, div, ul {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font: var(--body1-regular);
+  background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  /*word-break: break-all;*/
+  font-family: Grotesque, Montserrat;
+  font-weight: 400;
+}
+
+h1{
+  background-color: var(--background);
+  color: var(--primary);
+  font: var(--headline1);
+}
+
+h2{
+  font: var(--headline3);
+}
+
+p{
+  color: var(--grey);
+  font: var(--body1-regular);
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.m-0 {
+  margin: 0;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex !important;
+}
+
+#root {
+  min-height: 100vh;
+  background-image: url('../images/main-background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bacardi {
+  height: inherit;
+  width: 100%;
+  /*max-width: 1366px;*/
+  margin: 0 auto;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+  position: relative;
+}
+
+.Bacardi > .container {
+  height: 100%;
+  border: .65rem solid var(--border-color);
+}
+
+.Bacardi > .roulette-image-container.absolute {
+  display: none;
+}
+
+#contentContainer {
+  padding: .5rem .75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fw-bold {
+  font-weight: bolder;
+}
+
+.fs-minus {
+  font-size: .5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#stepBottle, #stepOne, #stepTwo, #stepThree, #stepFour, #stepFive, #stepSix {
+  animation: all .2s;
+  position: relative;
+}
+
+#stepBottle {
+  display: none;
+}
+
+#stepOne + #stepBottle/*, #stepFive + #stepBottle*/ {
+  display: flex;
+}
+
+.next-button {
+  background-color: #c20e1a;
+  color: var(--white);
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font: var(--headline35);
+  line-height: 1.1 !important;
+}
+.next-button.modified {
+  background-color: var(--white);
+  color: #c20e1a;
+  font: var(--headline3);
+  margin-top: 0.5rem;
+}

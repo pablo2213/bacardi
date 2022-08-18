@@ -1,0 +1,122 @@
+/**
+ *
+ * Extra small devices (portrait phones, less than 576px)
+ * No media query for `xs` since this is the default in Bootstrap
+ */
+@media (min-width: 400px) {
+	/*.reward-content > .text-content {
+		position: absolute;
+		height: 44px;
+		width: 60%;
+		right: 1rem;
+		top: 11rem;
+	}*/
+}
+
+/**
+ *
+ * Super Small devices (landscape phones, 576px and up)
+ */
+@media (min-width: 499px) {
+	.stepfive-title {
+		font: var(--headline3);
+	}
+	.reward-container {
+		margin: 0 .5rem 3.375rem;
+	}
+	/*.reward-content > img {
+		margin-left: 1rem
+	}*/
+}
+
+/**
+ *
+ * Small devices (landscape phones, 576px and up)
+ */
+@media (min-width: 576px) {
+	/*.reward-container {
+		margin: 0 2.5rem 3.375rem;
+	}*/
+	.stepfive-title.winner {
+		font: var(--headline3);
+	}
+	.stepfive-subtitle {
+		font: var(--headline4);
+	}
+	.reward-content > img {
+		padding-top: 1.7rem;
+	}
+	.text-content > p {
+		font: var(--body2-bold);
+	}
+	.reward-content > .text-content {
+		right: .5rem;
+		top: 73%;
+	}
+	.text-content > .remember {
+		font: var(--body3-regular);
+	}
+}
+
+/**
+ *
+ * Medium devices (tablets, 768px and up)
+ */
+@media (min-width: 768px) {
+	.stepfive-title {
+		font: var(--headline1);
+	}
+	.stepfive-title.winner {
+		font: var(--headline1);
+	}
+	.img-content {
+		/*text-align: right;*/
+		/*margin-top: -6.5rem;*/
+	}
+	.reward-content > p.snowboard {
+		max-width: 60%;
+	}
+	.reward-content > .reference-text {
+		position: absolute;
+	}
+	.reward-content > img.lentes {
+		margin-left: auto;
+	}
+	.img-content > img.snowboard {
+
+	}
+	.reward-content > .reference-text.snowboard {
+		left: auto;
+		right: .7rem;
+	}
+}
+
+/**
+ *
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+	/*.Bacardi {
+		max-width: 960px
+	}*/
+}
+
+/**
+ *
+ * Extra large devices (large desktops, 1366px and up)
+ */
+@media (min-width: 1200px) {
+	/*.Bacardi {
+		max-width: 1140px
+	}*/
+}
+
+/**
+ *
+ * Extra large devices (large desktops, 1366px and up)
+ */
+@media (min-width: 1400px) {
+	/*.Bacardi {
+		max-width: 1366px
+	}*/
+}

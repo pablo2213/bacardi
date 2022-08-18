@@ -1,0 +1,232 @@
+.vs-desktop-form {
+  padding: 0 1rem;
+}
+.form-col-2 {
+  flex-grow: 2;
+  width: 50%;
+}
+.pe-4 {
+  padding-right: 40px;
+}
+.ps-4 {
+  padding-left: 40px;
+}
+.vs-desktop-form label {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.vs-desktop-content {
+  padding: 0 17%;
+}
+.vs-desktop-content .steptwo-content {
+  padding: 1.1rem 3rem;
+  border-radius: 0 !important;
+  margin-bottom: 2.5rem;
+}
+.vs-desktop-content .steptwo-title {
+  margin-bottom: 10px;
+  font-size: 47px;
+}
+.vs-desktop-content .steptwo-content > h4 {
+  font-size: 30px;
+}
+.vs-desktop-content .steptwo-content > p {
+  font-size: 27px;
+  margin-top: 0;
+}
+.vs-desktop-content input#formSubmit {
+  font-size: 48px;
+  padding: 12px 30px 8px;
+  margin-top: 2.5rem;
+}
+.vs-desktop-content .video-media {
+  max-height: 290px;
+}
+.vs-desktop-content .form-ancle-modal {
+  font-size: 16px;
+}
+.vs-desktop-content #legalBasesContainer label {
+  font-size: 14px;
+  margin: 15px 0;
+}
+/***Step2***/
+.vs-desktop-step-2 {
+  padding: 0 8%;
+}
+
+.vs-desktop-step-2 .content-steptwomiddle {
+  background-color: #343434ad;
+  padding: 2.2rem 10rem;
+}
+.vs-desktop-step-2 .content-steptwomiddle .steptwomiddle-title {
+  font-size: 50px !important;
+}
+.vs-desktop-step-2 .content-steptwomiddle .steptwomiddle-subtitle {
+  font-size: 36px !important;
+}
+.vs-desktop-step-2 .play {
+  margin: 3rem 0 2rem;
+  background-color: #ffffffa6;
+  padding: 1rem;
+}
+.vs-desktop-step-2 .play h2 {
+  font-size: 30px;
+  line-height: normal;
+  margin: 0;
+  color: #000;
+}
+.vs-desktop-step-2 .next-button {
+  font-size: 48px;
+  padding: 12px 30px 8px;
+}
+/**************Step5************/
+.vs-desktop-step-5 {
+  padding: 0 10%;
+}
+.vs-desktop-step-5 .stepfive-subtitle-2 {
+  font-size: 27px;
+  margin-top: 7rem;
+}
+.vs-desktop-step-5 .next-button {
+  font-size: 40px;
+  padding: 12px 25px 8px;
+  margin-top: 2.5rem;
+}
+.vs-desktop-step-5 .next-button {
+  padding: 18px 20px;
+}
+.vs-desktop-step-5 .next-button.white {
+  color: #c20e1a;
+  background-color: #fff;
+  font-size: 28px;
+  margin-top: 18px;
+  padding: 18px 20px;
+}
+.vs-desktop-step-5 .reward-container {
+  border-radius: 0;
+  margin-top: 20px;
+}
+.vs-desktop-step-5 .stepfive-title {
+  font-size: 50px !important;
+}
+.vs-desktop-step-5 .img-content {
+  text-align: center;
+}
+.vs-desktop-step-5 .text-content p {
+  font-size: 17px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.vs-desktop-step-5 .step-five-vs .next-button {
+  font-size: 24px;
+}
+.vs-desktop-step-5 .text-content {
+  margin-top: 38px;
+}
+.step-five-vs .col-img {
+  width: 40%;
+}
+.step-five-vs .img-content img {
+  max-width: 80%;
+  padding-top: 15px;
+}
+
+@media only screen and (min-width: 993px) {
+  .roulette-container {
+    display: inline-flex;
+  }
+  .snowboard {
+    max-width: 50% !important;
+    padding-top: 43px !important;
+  }
+  .parlantes {
+    max-width: 80%;
+    padding-top: 28px;
+  }
+}
+@media only screen and (min-width: 1337px) {
+  .vs-desktop-step-5 .step-five-vs .stepfive-subtitle-2 {
+    max-width: 629px;
+    margin: 0 auto;
+  }
+  .vs-desktop-step-5 .text-content p {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1336px) and (min-width: 993px) {
+  .bottles {
+    max-width: 190px !important;
+  }
+  .vs-desktop-step-5 .step-five-vs .stepfive-subtitle-2 {
+    max-width: 475px;
+    margin: 0 auto;
+  }
+  .vs-desktop-content {
+    padding: 0 5%;
+  }
+  .vs-desktop-content #legalBasesContainer label {
+    font-size: 13px;
+  }
+  .vs-desktop-content .steptwo-title {
+    font-size: 38px;
+  }
+  .vs-desktop-content .steptwo-content > h4 {
+    font-size: 23px;
+  }
+  .vs-desktop-content .steptwo-content > p {
+    font-size: 21px;
+    margin-top: 0;
+  }
+  .vs-desktop-content input#formSubmit {
+    font-size: 36px;
+    margin-top: 2rem;
+  }
+  .vs-desktop-step-2 {
+    padding: 0 3%;
+  }
+  .vs-desktop-step-2 .content-steptwomiddle {
+    background-color: #343434ad;
+    padding: 2.2rem 1rem;
+  }
+  .vs-desktop-step-2 .content-steptwomiddle .steptwomiddle-title {
+    font-size: 50px !important;
+  }
+  .vs-desktop-step-2 .content-steptwomiddle .steptwomiddle-subtitle {
+    font-size: 30px !important;
+    line-height: 32px;
+  }
+  .vs-desktop-step-2 .play h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .vs-desktop-step-5 {
+    padding: 0 3%;
+  }
+  .vs-desktop-step-5 .stepfive-subtitle {
+    font-size: 36px !important;
+  }
+  .vs-desktop-step-5 .stepfive-subtitle-2 {
+    font-size: 20px;
+  }
+  .vs-desktop-step-5 .next-button {
+    font-size: 32px;
+  }
+  .vs-desktop-step-5 .next-button.white {
+    font-size: 23px;
+  }
+}
+.left {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+}
+.right {
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+}
+.bottles {
+  max-width: 300px;
+}

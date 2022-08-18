@@ -1,0 +1,36 @@
+.steptwo-title {
+	font: var(--headline1);
+	color: var(--white);
+}
+
+.steptwo-content {
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	padding: .5rem .25rem;
+}
+.steptwo-content > h4 {
+	font: var(--headline3);
+	line-height: 1;
+	color: var(--black);
+	/*margin-bottom: 0;*/
+}
+.steptwo-content > p {
+	line-height: 1;
+	color: var(--black);
+	margin-top: .1rem;
+	margin-bottom: 0;
+}
+
+.steptwomiddle-title {
+	font: var(--headline2);
+	margin-top: 0;
+	margin-bottom: .3rem;
+	margin-bottom: 0;
+}
+.steptwomiddle-subtitle {
+	font: var(--headline1);
+}
+.steptwomiddle-trititle {
+	font: var(--headline3);
+}

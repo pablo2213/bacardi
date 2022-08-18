@@ -1,0 +1,94 @@
+h2.stepfive-title {
+	font: var(--headline1);
+	margin: 1rem 0 0;
+	line-height: 1;
+}
+h2.stepfive-title.winner {
+	font: var(--headline2);
+	line-height: 1;
+}
+h2.stepfive-subtitle {
+	font: var(--headline35);
+}
+h2.stepfive-subtitle-2 {
+	font: var(--headline4);
+}
+
+.reward-container {
+	padding: 1rem 0rem 1.2rem;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 2rem;
+	margin: 0 0 2.375rem;
+}
+
+.draw-container {
+	text-align: center;
+}
+
+.reward-content {
+	position: relative;
+	padding: 0 .5rem;
+}
+
+.reward-content > img {
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 0.8rem;
+}
+.img-content > img.snowboard {
+	/*max-width: 80%;*/
+	margin-top: -2rem;
+	margin-left: -2rem;
+}
+.reward-content > img.audifonos {
+	margin-bottom: -1rem;
+}
+.reward-content > img.lentes {
+	margin-bottom: 0.75rem;
+	margin-left: 0.1rem;
+}
+.reward-content > img.parlantes {
+	display: flex;
+	margin-bottom: 1.1rem;
+	text-align: center;
+	/*padding-top: 0.7rem;*/
+}
+.img-content {
+	/*text-align: right;
+	margin-top: -6.5rem;*/
+}
+.reward-content > .reference-text {
+	font: var(--body2-regular);
+	position: absolute;
+	top: 0;
+	right: .7rem;
+}
+.reward-content > .text-content {
+	position: absolute;
+	height: 44px;
+	width: 60%;
+	right: 1rem;
+	top: 80%;
+}
+.reward-content > .reference-text.snowboard {
+	left: 1rem;
+	right: auto;
+}
+.reward-content > p, .text-content > p {
+	text-align: center;
+	color: var(--black);
+	font: var(--headline5);
+	margin: 0;
+}
+.reward-content > p.snowboard {
+	/*max-width: 60%;*/
+}
+.reward-content > .remember, .text-content > .remember {
+	font: var(--body1-regular);
+	line-height: 1 !important;
+}
+.draw-img {
+	max-height: 200px;
+	margin-bottom: -1.5rem;
+}

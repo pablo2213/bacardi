@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Grotesque;
+  src:  url(GrotesqueMTStd.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Grotesque;
+  src:  url(GrotesqueMTStd-Condensed.otf);
+  font-stretch: condensed;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Grotesque;
+  src:  url(GrotesqueMTStd_Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Grotesque;
+  src:  url(GrotesqueMTStd_BoldExtended.otf);
+  font-weight: 800;
+}
